@@ -17,7 +17,7 @@
                 <li><a href="contact.asp">Contact</a></li>
                 <li><a href="galaxy.html">Stars</a></li>
                 <li><a href="order.asp">Order</a></li>
-                
+                <li><a style="color: wheat;" href="sign.asp">Admin Panel</a></li>
 
             </ul>
         </div>
@@ -154,9 +154,13 @@
        
         on error resume next
         sql = "INSERT INTO satis(isim,soyisim,mail,yildiz) values('"&name&"' ,'"&surname&"' ,'"&mail&"' , '"&star&"')"
-      
+        
+     
+     
 
         conn.Execute(sql)
+
+
 
    
     %>

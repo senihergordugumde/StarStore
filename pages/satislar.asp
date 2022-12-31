@@ -36,11 +36,11 @@ for each x in rs.Fields
   next
   Response.Write("<th>Edit</th>")
   Response.Write("</tr>")
-dim aytekin  
+
 do until rs.EOF
 Response.Write("<tr>")
   for each x in rs.Fields
-    if x.name = "TCKimlik" then aytekin = x.value
+   
 	Response.Write("<td>")
     Response.Write(x.value & "</td>")
   next

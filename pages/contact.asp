@@ -15,8 +15,8 @@
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="contact.asp">Contact</a></li> 
                 <li><a href="galaxy.html">Stars</a></li>
-                <li><a href="order.html">Order</a></li>
-               
+                <li><a href="order.asp">Order</a></li>
+                <li><a style="color: wheat;" href="sign.asp">Admin Panel</a></li>
             </ul>
         </div>
 
