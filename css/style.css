@@ -20,7 +20,10 @@ a
  
 }
 
-
+.satislar
+{
+    margin-left: 40%;
+}
 .menu ul li a
 {
 
@@ -55,8 +58,8 @@ hr
 
 .icerik1
 {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 50vw;
     background-color: #000000;
 }
 
@@ -65,10 +68,10 @@ hr
 .icerik1 span
 {
     color: white;
-    font-size: 30px;
+    font-size: 1.4vw;
     position: absolute;
     top: 550px;
-    left: 45%;
+    left: 45vw;
     border: solid 0.5px white;
     padding: 10px;
     transition: 1s;
@@ -111,8 +114,9 @@ h1
     }
   
     to {
-      top: 35%;
+        top: 20vw;
       width: 400%;
+   
       
     }
   

@@ -10,11 +10,10 @@
       
         <br>
         <div class="menu">
-            <img src="../img/ico/eng.png" style="position: absolute; width: 3%; margin-left: 2%;">
-            <a href="../tr/sayfalar/order.html" ><img src="../img/ico/tur.png" style="position: absolute; height: 2.7%; width: 3%; margin-left: 3%;"> </a>
+          
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="contact.asp">Contact</a></li>
+                <li><a href="news.html">News</a></li>
                 <li><a href="galaxy.html">Stars</a></li>
                 <li><a href="order.asp">Order</a></li>
                 <li><a style="color: wheat;" href="sign.asp">Admin Panel</a></li>

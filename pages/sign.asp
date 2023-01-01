@@ -29,7 +29,7 @@
           
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="contact.asp">Contact</a></li> 
+                <li><a href="news.html">News</a></li>
                 <li><a href="galaxy.html">Stars</a></li>
                 <li><a href="order.asp">Order</a></li>
                 <li><a style="color: wheat;" href="sign.asp">Admin Panel</a></li>
@@ -73,7 +73,7 @@
 
        <form target="_blank" action="sign.asp"> 
         <table style="padding: 100px 41%; height: 40%;">
-            <tr> <td colspan="3"> <% if User <> name2 or Pass <> pass2  then  Response.Write("<a style='color: rgb(255, 0, 0); text-align: center;'>Incorrect Name or Password</a>")%></td></tr> 
+            <tr> <td colspan="3"> <% if User <> name2 or Pass <> pass2  then  Response.Write("<a style='color: rgb(255, 0, 0); text-align: center;'>user: emir  password: 1234</a>")%></td></tr> 
             <tr>
                
                 <td style="text-align: right; padding-right: 30px;">Username  </td>

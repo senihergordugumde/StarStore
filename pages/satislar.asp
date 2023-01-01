@@ -12,13 +12,17 @@
         
         <ul>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="contact.asp">Contact</a></li> 
-            <li><a href="galaxy.asp">Stars</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="galaxy.html">Stars</a></li>
             <li><a href="order.asp">Order</a></li>
         </ul>
     </div>
-<h3><a href="ekle.asp">+Veri Ekle</a></h3>
-<br> <br>
+
+<br> <br><br> <br><br> <br><br> <br>
+
+<div class="satislar">
+  <h1 style="color: white;">Yapılan Satışlar</h1>
+ 
 <%
 set conn=Server.CreateObject("ADODB.Connection")
 conn.Provider="Microsoft.Jet.OLEDB.4.0"
@@ -34,8 +38,7 @@ for each x in rs.Fields
 	Response.Write(x.name)
 	Response.Write("</th>")
   next
-  Response.Write("<th>Edit</th>")
-  Response.Write("</tr>")
+
 
 do until rs.EOF
 Response.Write("<tr>")
@@ -44,8 +47,7 @@ Response.Write("<tr>")
 	Response.Write("<td>")
     Response.Write(x.value & "</td>")
   next
-  Response.Write("<td><a href='sil.asp?tc="& aytekin &"'>Sil</a></td>")
-  Response.Write("</tr>")
+ 
   rs.MoveNext
 loop
 Response.Write("</table>")  
@@ -54,6 +56,6 @@ rs.close
 conn.close
 
 %>
-
+</div>
 </body>
 </html>
